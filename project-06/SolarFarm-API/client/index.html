@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class = "container">
+        <h1>Solar Farm</h1>
+        <h2>Solar Panels</h2>
+
+        <form onSubmit="addPanel(event)">
+
+                <label for="section">Section</label>
+                <input type="text" id="section" name="section">
+
+                <label for="row">Row</label>
+                <input type="number" id="row" name="row" min="1" max="250">
+
+                <label for="column">Column</label>
+                <input type="number" id="column" name="column" min="1" max="250">
+
+                <label for="yearInstalled">Year Installed</label>
+                <input type="text" id="yearInstalled" name="yearInstalled">
+
+                <label for="material">Material</label>
+                <select id="material" name="material">
+                  <option>POLY_SI</option>
+                  <option>MONO_SI</option>
+                  <option>CIGS</option>
+                  <option>CD_TE</option>
+                  <option>A_SI</option>
+                </select>
+
+                <label for="tracking">Is Tracking?</label>
+                <input type="checkbox" id="tracking" name="tracking" >
+
+                <button type="button" class="btn btn-success btn-sm">Add Solar Panel</button>
+
+              </div>
+        </form>
+
+
+        <table class="table table-striped" id="panels">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Section</th>
+                    <th scope="col">Row</th>
+                    <th scope="col">Column</th>
+                    <th scope="col">Year Installed</th>
+                    <th scope="col">Material</th>
+                    <th scope="col">Is Tracking?</th>
+                    <th scope="col"></th>
+                    </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+    </div>
+    <script src="main.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+        integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+</html>

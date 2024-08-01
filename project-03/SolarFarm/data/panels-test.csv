@@ -1,0 +1,4 @@
+Panel_Id//Material//Section//Row//Column//Year_Installed//Tracking
+1//MONOCRYSTALLINE_SILICON//Area A//1//1//2011//true
+2//MONOCRYSTALLINE_SILICON//Area B//2//2//2012//true
+3//MONOCRYSTALLINE_SILICON//Area A//2//2//2012//false
