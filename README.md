@@ -22,6 +22,7 @@ As a relatively new software engineer, I'm always ready to learn, adapt, and emb
 
 ### Dev10 | Software Engineering Bootcamp
 *August 2022 – October 2022*
+
 Capstone Project: https://github.com/Fghddh00/Resume-builder
 
 - 📚 Completed an intensive online bootcamp focused on software engineering principles and practices.
