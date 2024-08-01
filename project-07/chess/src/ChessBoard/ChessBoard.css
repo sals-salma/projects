@@ -1,0 +1,6 @@
+.chessBoard {
+    width: 100vmin;
+    height: 100vmin;
+    display: inline-block;
+    line-height: 0;
+}
